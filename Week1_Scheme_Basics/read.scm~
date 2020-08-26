@@ -1,0 +1,14 @@
+(define var1)
+(define var2)
+
+(display "Input var1: ")
+(set! var1 (read))
+(newline)
+(display "Input var2: ")
+(set! var2 (read))
+(newline)
+
+(display var1) (newline)
+(display var2) (newline)
+
+(exit)
