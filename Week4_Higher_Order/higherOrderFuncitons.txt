@@ -1,0 +1,25 @@
+What are higher order functions.
+    Higher order functions are function that takes functions as arguments
+    They are used for mapping, filtering, folding, and sorting of lists
+    They promote the modulariyy of programs
+        Writing higher order funcitons that are applicable in many cases makes the program readable rather than writing recursive functions for individual cases
+
+
+(apply char<? lst) ; charachter lists
+(apply string<? lst) ; string lists
+(apply < lst) ; numerical lists
+
+Why are they useful
+    Common prgraming idioms can be encoded as functions within the language itself
+    Domain specific languages can be defined as collections of higher-order functions
+        For example, higher order funcitons can be ised to reason about processing lists
+    Algebric properties of higher-order functions can be used to reason about programs
+
+The ugly side of higher-order functions
+    not always built-in
+        versions of Scheme varies widely
+    if you do not find the higher-order funciton you need you have to find itself
+        in Gambit you had to find them
+    once the code is downloaded it then needs to be included with your code
+        in this case, we need to add to our Unix server
+    
