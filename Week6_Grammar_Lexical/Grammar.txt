@@ -1,0 +1,58 @@
+Syntax
+    The form form or structure of the language
+
+    Lexeme
+        Lowest level syntactic unit of a language
+        Numerical limits, operators, special words, ect.
+    Token
+        is a category of lexemes(identifiers)
+        words in a Syntax
+    
+Lexeme and Token
+
+    exp.
+        const { } cout << 23.23; "Lupoli"
+
+Scanner
+    converts the text in the ide into a parse tree.
+    parse tree (compiler) tries to match code into somthing that makes sense
+    
+Urnary operators
+    operatirs that act upon a single operand,
+    set around a value
+        prefix or postfix around the value
+        3 - (-2), x++
+    C++ exp:
+        ++i
+        i++
+        &x
+        *x
+
+Grammars
+    context free and regular
+
+Context free Grammars
+    CFG for the language
+        Left hand side has all values that are non-terminala
+        epsilon is null
+
+Overall set of senteces or rules is called a Grammars
+    Within the senteces there are nontermianls
+
+    Terminals also exist in the sentence
+
+Backus -Naur form 
+    A form of CFG
+
+Lists in Grammar
+    not the array or list data structure
+    items of the same data type
+
+How to solve trees
+    It is bottom up
+    Leaces are solved first
+    tree=recursive, remeber the last calid recursive call REALLY gets solved first
+    we use this idea for precedence below.
+
+
+      
